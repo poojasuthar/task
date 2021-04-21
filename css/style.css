@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+	color:black;
+}
+
+.main {
+    padding-top: 0.1px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+.btns button {
+    background-color: #FFB600; 
+    border: none;
+    color: black;
+    width:27%;
+    padding: 11px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.6rem;
+    cursor: pointer;
+    margin: 0px 15px;
+}
+.btns button:hover{
+    opacity: 0.9;
+}
+#lecturebtn {
+    background-color:  #EB563A ;
+}
+.lists {
+    height: 65vh; 
+    overflow: auto;
+}
+.lists table {
+    width: 90%;
+    margin: 0% 5% 2% 5%;
+
+}
+.lists table tr th {
+    position: sticky;
+    top:0;
+    font-size: 1.6rem;
+    padding: 14px;
+    text-align: center;
+    background-color: #f6e0b5	;
+    color: black;
+}
+.lists table tr td {
+    font-size: 1.3rem;
+    padding: 12px;
+    text-align: center;
+	color:black;
+    background-color: transparent;
+}
+.lists table tr td a {
+    display: block;
+    color: gray;
+    text-decoration: none;
+    transition: 0.3s all linear;
+}
+.lists table tr td a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.lists table tr td a:visited{
+    color: blue;
+}
+#Practicals {
+    display: none;
+}
+#lecture_work {
+    display: block;
+}
+.visit {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.visit p:first-child {
+    color: red;
+}
